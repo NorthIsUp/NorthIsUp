@@ -1,0 +1,15 @@
+--- 
+layout: post
+title: Holi
+published: true
+meta: 
+  aktt_notify_twitter: "yes"
+  _edit_last: "2"
+  aktt_tweeted: "1"
+  image: http://northisup.com/wp-content/uploads/2011/04/iPhone-Capture.jpg
+tags: 
+- Life
+type: post
+status: publish
+---
+[![](http://northisup.com/wp-content/uploads/2011/04/iPhone-Capture-300x224.jpg)](http://northisup.com/wp-content/uploads/2011/04/iPhone-Capture.jpg) Holi festival of color at stanford. Superfun! 

@@ -1,0 +1,19 @@
+--- 
+layout: post
+title: TVTaggr
+published: true
+meta: 
+  btc_comment_summary: a:0:{}
+  btc_comment_counts: a:0:{}
+tags: 
+- beta
+- cocoa
+- Code
+- Life
+- Movies
+- tv
+- TVTaggr
+type: post
+status: publish
+---
+TVTaggr is software with a simple purpose. To edit mp4 and m4v metadata in batch quantities. It is currently in between alpha and beta, but I thought I'd let it out for you all to try. It _is_ Leopard only (I know it doesn't look like a Leopard only app, but it uses Leopard functionality under the hood). Please give me feedback in the comments! [download](http://adam.infimp.net/files/TVTaggr/TVTaggr.dmg)

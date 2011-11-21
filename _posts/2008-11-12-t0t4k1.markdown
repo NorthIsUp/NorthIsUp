@@ -1,0 +1,12 @@
+--- 
+layout: post
+title: t0t4k1
+published: false
+meta: 
+  _edit_last: "2"
+tags: []
+
+type: post
+status: draft
+---
+Showcase is a Sorry, no link since the author's site is down. [local mirror] 

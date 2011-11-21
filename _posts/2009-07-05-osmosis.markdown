@@ -1,0 +1,17 @@
+--- 
+layout: post
+title: Osmosis
+published: true
+meta: 
+  aktt_notify_twitter: "yes"
+  _edit_last: "2"
+  btc_comment_counts: a:0:{}
+tags: 
+- catz
+- Life
+- Osmosis
+- Science
+type: post
+status: publish
+---
+[caption id="" align="alignnone" width="500" caption="Stretchy cat FTW"][![](http://imgur.com/kJruQ.jpg)](http://en.wikipedia.org/wiki/Osmosis)[/caption] 

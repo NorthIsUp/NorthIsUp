@@ -1,0 +1,18 @@
+--- 
+layout: post
+title: King Corn
+published: true
+meta: 
+  btc_comment_summary: a:0:{}
+  _edit_last: "2"
+  friendfeed_id: 06a30be950aa33c7be2e80772efc77b2
+  btc_comment_counts: a:0:{}
+tags: 
+- corn
+- documentary
+- Green
+- Life
+type: post
+status: publish
+---
+The question was asked on reddit.com "Do we eat too much corn?" Yes, we do. But most of the time you don't know it. Corn is in everything we consume (think high fructose corn syrup). To enterprising college grads went out to see where all this corn comes from. Their result is the documentary [King Corn](http://www.pbs.org/independentlens/kingcorn/): 
