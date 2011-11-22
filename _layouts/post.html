@@ -1,10 +1,10 @@
 ---
 layout: default
 ---
-{% if page.date %}<div class="postdate">Posted on {{ page.date | date_to_string }}{% if page.last_updated %}, last updated on {{ page.last_updated | date_to_string }}{% endif %}</div>{% endif %}
-
 <div class="post">
-{{ content }}
+  {% if page.title %}<h1>{{ page.title }}</h1>{% endif %}
+  {% if page.date %}<div class="postdate">Posted on {{ page.date | date_to_string }}{% if page.last_updated %}, last updated on {{ page.last_updated | date_to_string }}{% endif %}</div>{% endif %}
+  {{ content }}
 </div>
  
 <div id="related">
