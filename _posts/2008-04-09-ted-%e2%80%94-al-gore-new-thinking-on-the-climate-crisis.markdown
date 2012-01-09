@@ -17,4 +17,6 @@ tags:
 type: post
 status: publish
 ---
-[TED Talks — Al Gore: New thinking on the climate ](http://www.ted.com/talks/view/id/243) Al Gore presents some new thoughts of his since _An Inconvenient Truth_. 
+{% embedly http://www.ted.com/talks/view/id/243 %}
+
+Al Gore presents some new thoughts of his since _An Inconvenient Truth_. 

@@ -19,7 +19,7 @@ end
 
 desc 'Build and deploy'
 task :deploy => :build do
-  sh 'rsync -rtzh --progress --delete _site/ username@servername:/var/www/websitename/'
+  sh 'rsync -rtzh --progress --delete _site/ adam@67.23.0.81:~/www/jekyll/'
 end
 
 desc 'Check links for site already running on localhost:4000'
@@ -50,6 +50,11 @@ task :check_links do
   rescue LoadError
     abort 'Install anemone gem: gem install anemone'
   end
+end
+
+task :move_posts do
+  sh 'for x in `grep -Hn "status: draft" _posts/* | sed -e \'s@\(.*.markdown\).*@\1@g\'` ; do mv $x _drafts ; done;'
+  sh 'for x in `grep -Hn "status: publish" _drafts/* | sed -e \'s@\(.*.markdown\).*@\1@g\'` ; do mv $x _posts ; done;'
 end
 
 def cleanup

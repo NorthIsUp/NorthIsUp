@@ -18,8 +18,4 @@ status: publish
 ---
 This is one of my favorite TED talks. 
 
-[YouTube - Derek Sivers: How to start a movement](http://www.youtube.com/embed/V74AxCqOTvg)undefined 
-
-[![Embedly Powered](//static.embed.ly/images/logos/embedly-powered-small-light.png)](http://embed.ly?src=anywhere)
-
-via [YouTube](http://youtube.com)
+{% embedly http://www.youtube.com/embed/V74AxCqOTvg %}

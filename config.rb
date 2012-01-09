@@ -5,3 +5,4 @@ images_dir = "images"
 javascripts_dir = "javascripts"
 output_style = :expanded
 line_comments = false
+permalink = "/blog/:title/"

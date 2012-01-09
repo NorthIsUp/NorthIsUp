@@ -14,4 +14,4 @@ tags:
 type: post
 status: publish
 ---
-[caption id="" align="alignnone" width="500" caption="Stretchy cat FTW"][![](http://imgur.com/kJruQ.jpg)](http://en.wikipedia.org/wiki/Osmosis)[/caption] 
+[![](http://imgur.com/kJruQ.jpg)](http://en.wikipedia.org/wiki/Osmosis)
