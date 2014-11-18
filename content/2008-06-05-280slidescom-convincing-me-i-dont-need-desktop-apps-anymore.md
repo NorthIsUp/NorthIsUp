@@ -1,4 +1,5 @@
 title: 280Slides.com: Convincing me I don't need desktop apps anymore
+date: 2008-06-05
 type: post
 status: published
 tags: Life, Review, Software, Web 2.0

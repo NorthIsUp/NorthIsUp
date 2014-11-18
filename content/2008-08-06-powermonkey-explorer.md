@@ -1,4 +1,5 @@
 title: Powermonkey Explorer
+date: 2008-08-06
 type: post
 status: published
 tags: Eco-Tech, Green, Life, Road Warrior, Solar, Technology

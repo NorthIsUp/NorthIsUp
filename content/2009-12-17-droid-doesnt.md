@@ -1,4 +1,5 @@
 title: Droid Doesn't
+date: 2009-12-17
 type: post
 status: published
 tags: Life

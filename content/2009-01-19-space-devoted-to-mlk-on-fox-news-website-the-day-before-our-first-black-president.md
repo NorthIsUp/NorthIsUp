@@ -1,4 +1,5 @@
 title: Space Devoted to MLK on FOX News Website, The Day Before Our First Black President Steps Into Office
+date: 2009-01-19
 type: post
 status: published
 tags: 2008 Election, fox news, Life, Obama, Politics, Right Wing Bias

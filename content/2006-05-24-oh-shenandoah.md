@@ -1,4 +1,5 @@
 title: Oh, Shenandoah!
+date: 2006-05-24
 type: post
 status: published
 tags: everything, Green, Life, The Universe

@@ -1,4 +1,5 @@
 title: WWDC Survival Guide 2009 (With additions!)
+date: 2009-05-20
 type: post
 status: published
 tags: 2009, Apple, Life, WWDC

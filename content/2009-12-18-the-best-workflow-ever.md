@@ -1,4 +1,5 @@
 title: The best workflow ever.
+date: 2009-12-18
 type: post
 status: published
 tags: Life

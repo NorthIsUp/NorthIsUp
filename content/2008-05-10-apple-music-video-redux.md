@@ -1,4 +1,5 @@
 title: Apple music video (redux)
+date: 2008-05-10
 type: post
 status: published
 tags: Life

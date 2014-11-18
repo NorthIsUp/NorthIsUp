@@ -1,4 +1,5 @@
 title: You are what you say: Linking anonymous public data back to you.
+date: 2007-04-08
 type: post
 status: published
 tags: Apple, Crypto, Life, Security

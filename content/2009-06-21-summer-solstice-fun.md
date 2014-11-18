@@ -1,4 +1,5 @@
 title: Summer solstice fun
+date: 2009-06-21
 type: post
 status: published
 tags: Life

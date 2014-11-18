@@ -1,4 +1,5 @@
 title: A New Sith, or Revenge of the Hope (mirror)
+date: 2010-01-25
 type: post
 status: published
 tags: Life

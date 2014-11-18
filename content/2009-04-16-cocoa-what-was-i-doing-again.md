@@ -1,4 +1,5 @@
 title: Cocoa: What was I doing again?
+date: 2009-04-16
 type: post
 status: published
 tags: Life

@@ -1,4 +1,5 @@
 title: WWDC Survival Guide (For Students)
+date: 2008-06-06
 type: post
 status: published
 tags: Apple, Life, Technology, WWDC

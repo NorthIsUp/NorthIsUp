@@ -1,4 +1,5 @@
 title: A Commercial So Good That You'll Forgive it For Being a Soulless Ad Campaign
+date: 2008-12-21
 type: post
 status: published
 tags: commercial, Music, Video

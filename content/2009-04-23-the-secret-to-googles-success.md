@@ -1,4 +1,5 @@
 title: The Secret to Google's Success
+date: 2009-04-23
 type: post
 status: published
 tags: Google, Life, zelda

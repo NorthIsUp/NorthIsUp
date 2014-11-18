@@ -1,4 +1,5 @@
 title: Android vs iPhone
+date: 2009-07-03
 type: post
 status: published
 tags: Android, iPhone, Life, Programming

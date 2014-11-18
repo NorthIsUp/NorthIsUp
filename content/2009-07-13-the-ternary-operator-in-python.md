@@ -1,4 +1,5 @@
 title: The ternary operator in Python
+date: 2009-07-13
 type: post
 status: published
 tags: Code, python, Technology, ternary

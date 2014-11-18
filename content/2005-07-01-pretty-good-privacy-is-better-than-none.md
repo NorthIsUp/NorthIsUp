@@ -1,4 +1,5 @@
 title: Pretty Good Privacy is better than none
+date: 2005-07-01
 type: post
 status: published
 tags: Crypto, Life, PGP, Security

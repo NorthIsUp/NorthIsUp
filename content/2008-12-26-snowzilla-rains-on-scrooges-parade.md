@@ -1,4 +1,5 @@
 title: Snowzilla Rains on Scrooges Parade
+date: 2008-12-26
 type: post
 status: published
 tags: Life, small town nonsense, winter

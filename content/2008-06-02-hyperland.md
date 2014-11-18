@@ -1,4 +1,5 @@
 title: Hyperland
+date: 2008-06-02
 type: post
 status: published
 tags: Douglas Adams, Internet, Life, Technology, Video

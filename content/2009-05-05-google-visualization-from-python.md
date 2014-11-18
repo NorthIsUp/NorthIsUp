@@ -1,4 +1,5 @@
 title: Google visualization from python
+date: 2009-05-05
 type: post
 status: published
 tags: api, Code, Google, Life, python, Technology, Web 2.0

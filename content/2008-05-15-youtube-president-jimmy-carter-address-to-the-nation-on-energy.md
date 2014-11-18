@@ -1,4 +1,5 @@
 title: YouTube - President Jimmy Carter - Address to the Nation on Energy
+date: 2008-05-15
 type: post
 status: published
 tags: energy, Global Warming, Green, Life

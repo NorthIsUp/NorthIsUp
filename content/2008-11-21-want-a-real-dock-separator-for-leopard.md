@@ -1,4 +1,5 @@
 title: Want a real Dock separator for Leopard?
+date: 2008-11-21
 type: post
 status: published
 tags: Apple, Code, Life, OS X

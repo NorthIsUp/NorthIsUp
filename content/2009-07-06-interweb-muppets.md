@@ -1,4 +1,5 @@
 title: Interweb Muppets
+date: 2009-07-06
 type: post
 status: published
 tags: featured, Life

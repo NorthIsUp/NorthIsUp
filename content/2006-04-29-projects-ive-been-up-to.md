@@ -1,4 +1,5 @@
 title: Projects I've been up to
+date: 2006-04-29
 type: post
 status: published
 tags: Code, Life, School

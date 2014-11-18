@@ -1,4 +1,5 @@
 title: cli wikipedia
+date: 2011-02-01
 type: post
 status: published
 tags: Life, protip

@@ -1,4 +1,5 @@
 title: GoogleTv apps suck.
+date: 2011-11-16
 type: post
 status: published
 tags: Life

@@ -1,4 +1,5 @@
 title: Microsoft, broken by design
+date: 2009-07-05
 type: post
 status: published
 tags: Life, Microsoft, W3C, XML

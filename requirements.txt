@@ -1,5 +1,2 @@
-Markdown
-Pygments
-ghp-import
-ipython
 pelican
+Markdown

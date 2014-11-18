@@ -1,4 +1,5 @@
 title: Why does this not ship with the os?
+date: 2010-06-21
 type: post
 status: published
 tags: Life

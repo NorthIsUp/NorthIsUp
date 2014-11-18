@@ -1,4 +1,5 @@
 title: Doing what we do well (and computers don't)
+date: 2008-05-09
 type: post
 status: published
 tags: crowd-sourcing, gaming, Humanity, Life, Science

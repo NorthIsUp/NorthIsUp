@@ -1,4 +1,5 @@
 title: Twitter, a new world player.
+date: 2009-06-18
 type: post
 status: published
 tags: 

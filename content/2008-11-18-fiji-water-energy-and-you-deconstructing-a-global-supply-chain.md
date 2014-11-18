@@ -1,4 +1,5 @@
 title: Fiji Water, Energy, and You: Deconstructing a Global Supply Chain
+date: 2008-11-18
 type: post
 status: published
 tags: Eco-Tech, energy, Environment, Global Warming, Globalization, Green, Life
