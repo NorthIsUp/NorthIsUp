@@ -8,7 +8,7 @@ AUTHOR = u'adam'
 SITENAME = u'NorthIsUp'
 SITEURL = ''
 
-TIMEZONE = 'America/San Francisco'
+TIMEZONE = 'America/Los_Angeles'
 
 DEFAULT_LANG = u'en'
 
@@ -34,6 +34,6 @@ THEME = root + "/pelican-themes/svbtle"
 print THEME
 
 PLUGIN_PATH = root + '/pelican-plugins'
-PLUGINS = ['gravatar', 'disqus']
+PLUGINS = ['gravatar', 'disqus_static']
 
 AUTHOR_EMAIL = 'adam@northisup.com'
