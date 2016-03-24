@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: "Snowzilla Rains on Scrooges Parade"
 date: 2008-12-26
 type: post

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: "YouTube - President Jimmy Carter - Address to the Nation on Energy"
 date: 2008-05-15
 type: post

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: "Interweb Muppets"
 date: 2009-07-06
 type: post

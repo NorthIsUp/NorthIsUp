@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: "Want a real Dock separator for Leopard?"
 date: 2008-11-21
 type: post

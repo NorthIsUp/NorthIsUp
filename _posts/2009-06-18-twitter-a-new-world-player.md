@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: "Twitter, a new world player."
 date: 2009-06-18
 type: post

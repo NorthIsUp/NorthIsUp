@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: "A New Sith, or Revenge of the Hope (mirror)"
 date: 2010-01-25
 type: post

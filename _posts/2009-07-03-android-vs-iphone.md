@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: "Android vs iPhone"
 date: 2009-07-03
 type: post

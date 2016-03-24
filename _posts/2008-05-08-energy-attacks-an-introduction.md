@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: "Energy Attacks: An Introduction"
 date: 2008-05-08
 type: post

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: "Apps I actually use on my iPhone"
 date: 2011-08-12
 type: post

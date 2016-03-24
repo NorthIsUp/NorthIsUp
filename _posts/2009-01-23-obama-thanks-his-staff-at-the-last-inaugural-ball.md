@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: "Obama Thanks His Staff At The Last Inaugural Ball."
 date: 2009-01-23
 type: post

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: "Oh, Shenandoah!"
 date: 2006-05-24
 type: post

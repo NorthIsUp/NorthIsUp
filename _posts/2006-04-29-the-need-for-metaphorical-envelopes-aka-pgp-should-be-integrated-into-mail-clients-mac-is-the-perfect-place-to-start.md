@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: "The need for metaphorical envelopes aka: PGP should be integrated into mail clients, .Mac is the perfect place to start"
 date: 2006-04-29
 type: post

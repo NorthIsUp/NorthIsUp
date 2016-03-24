@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: "cli wikipedia"
 date: 2011-02-01
 type: post

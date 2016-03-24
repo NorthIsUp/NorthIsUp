@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: "Jonathan Haidt: The real difference between liberals and conservatives"
 date: 2008-09-18
 type: post

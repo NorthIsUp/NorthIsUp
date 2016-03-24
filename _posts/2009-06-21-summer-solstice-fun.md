@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: "Summer solstice fun"
 date: 2009-06-21
 type: post

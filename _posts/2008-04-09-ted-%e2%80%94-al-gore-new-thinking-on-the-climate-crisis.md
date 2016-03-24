@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: "Al Gore's New Thinking on The Energy Crisis"
 date: 2008-04-09
 type: post

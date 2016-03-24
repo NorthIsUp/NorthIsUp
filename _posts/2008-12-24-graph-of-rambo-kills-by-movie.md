@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: "Graph of Rambo Kills by Movie"
 date: 2008-12-24
 type: post

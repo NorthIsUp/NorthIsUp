@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: "Microsoft, broken by design"
 date: 2009-07-05
 type: post

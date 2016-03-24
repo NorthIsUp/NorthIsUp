@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: "Engadget and Gizmodo don't get Maker Faire"
 date: 2010-08-01
 type: post

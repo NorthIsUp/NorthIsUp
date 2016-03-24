@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: "William Kamkwamba: How I built my family a windmill"
 date: 2008-05-07
 type: post

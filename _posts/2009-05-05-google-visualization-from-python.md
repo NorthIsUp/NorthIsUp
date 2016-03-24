@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: "Google visualization from python"
 date: 2009-05-05
 type: post

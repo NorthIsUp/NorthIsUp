@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: "OS X Blessings"
 date: 2009-12-25
 type: post

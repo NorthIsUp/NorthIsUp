@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: "The ternary operator in Python"
 date: 2009-07-13
 type: post
