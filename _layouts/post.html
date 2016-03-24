@@ -19,7 +19,7 @@ layout: default
             var disqus_identifier = "/{{ page.url }}";
             (function() {
                 var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-                dsq.src = 'http://northisup.disqus.com/embed.js';
+                dsq.src = 'http://northisup.disqus.com/embed.js?disqus_identifier=' + encodeURIComponent(disqus_identifier);
                 (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
             })();
         </script>
