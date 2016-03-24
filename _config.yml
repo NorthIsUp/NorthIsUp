@@ -20,8 +20,11 @@ github_username:  northisup
 # Build settings
 markdown: kramdown
 
-gems:
-  - jekyll-embedly-plugin
+embedly:
+  api_key: 0f1e60a8ba5f11e0a4f24040d3dc5c07
+
+# gems:
+  # - jekyll-embedly-plugin
   # - jekyll-mentions
   # - jemoji
   # - jekyll-redirect-from
