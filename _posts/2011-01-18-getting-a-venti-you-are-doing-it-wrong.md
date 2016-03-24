@@ -12,7 +12,7 @@ Recently, I have started to drink coffe more than in the past. One of the first 
 
 ----
 
-{% embedly http://en.wikipedia.org/wiki/Cappuccino#Definition %}
+<!-- {% embedly http://en.wikipedia.org/wiki/Cappuccino#Definition %} -->
 
 ----
 

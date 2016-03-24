@@ -10,4 +10,4 @@ tags: TED, Video
 
 This is one of my favorite TED talks.
 
-{% embedly http://www.youtube.com/embed/V74AxCqOTvg %}
+<!-- {% embedly http://www.youtube.com/embed/V74AxCqOTvg %} -->
