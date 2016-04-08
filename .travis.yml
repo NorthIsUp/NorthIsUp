@@ -1,4 +1,6 @@
 language: ruby
+cache: bundler
+
 script: "bundle exec jekyll build"
 rvm:
   - 2.2
