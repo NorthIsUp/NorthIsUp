@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: [post, amp]
 title: "WWDC Survival Guide (For Students)"
 date: 2008-06-06
 type: post

@@ -31,6 +31,11 @@ gems:
   - jekyll-embedly-plugin
   # - jekyll-mentions
   # - jemoji
-  # - jekyll-redirect-from
-  # - jekyll-sitemap
+  - jekyll-redirect-from
+  - jekyll-sitemap
   - jekyll-feed
+  - jekyll-assets
+
+assets:
+  sources:
+    - _site/css

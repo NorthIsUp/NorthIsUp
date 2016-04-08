@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: [post, amp]
 title: "Git config that doesn't suck."
 date: 2011-08-09
 type: post

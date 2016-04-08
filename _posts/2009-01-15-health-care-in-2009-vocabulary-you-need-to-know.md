@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: [post, amp]
 title: "Health Care in 2009. Vocabulary you need to know."
 date: 2009-01-15
 type: post

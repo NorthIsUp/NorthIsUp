@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: [post, amp]
 title: "Derek Sivers: How to start a movement"
 date: 2011-01-21
 type: post

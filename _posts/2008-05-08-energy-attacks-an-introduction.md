@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: [post, amp]
 title: "Energy Attacks: An Introduction"
 date: 2008-05-08
 type: post

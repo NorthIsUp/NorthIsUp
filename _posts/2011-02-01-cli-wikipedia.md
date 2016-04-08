@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: [post, amp]
 title: "cli wikipedia"
 date: 2011-02-01
 type: post

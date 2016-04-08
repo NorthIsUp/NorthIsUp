@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: [post, amp]
 title: "The First EULA?"
 date: 2009-01-14
 type: post

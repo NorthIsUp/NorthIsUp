@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: [post, amp]
 title: "Focus grouping products to death."
 date: 2006-05-04
 type: post

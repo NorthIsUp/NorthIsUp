@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: [post, amp]
 title: "A Tick for Navigation"
 date: 2008-04-04
 type: post

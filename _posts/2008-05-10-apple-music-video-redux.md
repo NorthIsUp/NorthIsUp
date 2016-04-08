@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: [post, amp]
 title: "Apple music video (redux)"
 date: 2008-05-10
 type: post

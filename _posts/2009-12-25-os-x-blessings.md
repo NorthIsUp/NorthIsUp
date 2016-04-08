@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: [post, amp]
 title: "OS X Blessings"
 date: 2009-12-25
 type: post

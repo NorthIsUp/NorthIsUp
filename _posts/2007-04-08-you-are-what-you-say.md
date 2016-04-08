@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: [post, amp]
 title: "You are what you say: Linking anonymous public data back to you."
 date: 2007-04-08
 type: post

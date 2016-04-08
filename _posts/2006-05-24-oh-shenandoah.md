@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: [post, amp]
 title: "Oh, Shenandoah!"
 date: 2006-05-24
 type: post

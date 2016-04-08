@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: [post, amp]
 title: "Projects I've been up to"
 date: 2006-04-29
 type: post

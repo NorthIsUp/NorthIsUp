@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: [post, amp]
 title: "Summer solstice fun"
 date: 2009-06-21
 type: post

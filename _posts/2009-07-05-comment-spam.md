@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: [post, amp]
 title: "Comment spam"
 date: 2009-07-05
 type: post

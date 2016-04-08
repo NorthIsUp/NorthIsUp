@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: [post, amp]
 title: "MacFUSE 2.x + fuse-python"
 date: 2011-04-21
 type: post

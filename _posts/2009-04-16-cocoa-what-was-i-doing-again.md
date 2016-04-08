@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: [post, amp]
 title: "Cocoa: What was I doing again?"
 date: 2009-04-16
 type: post

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: [post, amp]
 title: "Fiji Water, Energy, and You: Deconstructing a Global Supply Chain"
 date: 2008-11-18
 type: post

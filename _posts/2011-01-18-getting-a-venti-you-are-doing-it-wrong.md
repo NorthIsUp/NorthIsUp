@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: [post, amp]
 title: "Getting a Venti? you are doing it wrong"
 date: 2011-01-18
 type: post

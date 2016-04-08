@@ -1,6 +1,6 @@
 ---
 title: "Right Wing Talk Radio Host: We're Killing the GOP"
-layout: post
+layout: [post, amp]
 date: 2008-12-04
 type: post
 status: published

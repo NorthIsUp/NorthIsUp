@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: [post, amp]
 title: "Python starter templates"
 date: 2009-04-16
 type: post

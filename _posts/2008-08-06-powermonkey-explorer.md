@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: [post, amp]
 title: "Powermonkey Explorer"
 date: 2008-08-06
 type: post

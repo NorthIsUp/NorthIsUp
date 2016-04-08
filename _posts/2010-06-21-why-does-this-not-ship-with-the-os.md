@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: [post, amp]
 title: "Why does this not ship with the os?"
 date: 2010-06-21
 type: post

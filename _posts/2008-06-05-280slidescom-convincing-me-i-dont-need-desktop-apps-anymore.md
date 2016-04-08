@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: [post, amp]
 title: "280Slides.com: Convincing me I don't need desktop apps anymore"
 date: 2008-06-05
 type: post

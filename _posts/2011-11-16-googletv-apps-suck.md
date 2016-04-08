@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: [post, amp]
 title: "GoogleTv apps suck."
 date: 2011-11-16
 type: post
