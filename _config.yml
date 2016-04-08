@@ -20,6 +20,8 @@ permalink: '/blog/:title/'
 
 # Build settings
 markdown: kramdown
+exclude:
+  - vendor
 
 embedly:
   api_key: 0f1e60a8ba5f11e0a4f24040d3dc5c07
