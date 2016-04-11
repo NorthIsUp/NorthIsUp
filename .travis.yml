@@ -1,7 +1,7 @@
 language: ruby
 cache: bundler
 
-script: "bundle exec jekyll build"
+script: "bundle exec jekyll build --trace --verbose"
 rvm:
   - 2.2
 branches:
