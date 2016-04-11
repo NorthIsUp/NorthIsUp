@@ -10,9 +10,4 @@ group :jekyll_plugins do
     gem "domainatrix"
     gem "compose_url"
     gem "jekyll-embedly-plugin"
-
-    # for amp-jekyll
-    gem "nokogiri"
-    gem "fastimage"
-    gem "jekyll-assets"
 end
