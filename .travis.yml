@@ -1,9 +1,26 @@
 language: ruby
-cache: bundler
-
-script: "bundle exec jekyll build --trace --verbose"
 rvm:
   - 2.2
+cache: bundler
+env:
+  global:
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+  - GITHUB_REPO: github.com/northisup/NorthIsUp.git
+  - REPO_TARGET_BRANCH: gh-pages
+  - secure: PsaCnTsJzDdEJU1IH2LVaJ1KgENB3WPxs2PhXADhdtjHcLChpliHuVZxKEVcSFMuGu8IIhfiFWj2nN9pkls62Qq1hLlyFUJXy1Fvu6sdQOT7W6Yfv4mZAYhLl7cgbxTaAgfgYrSabY1lF4NBBohE6RJRZR84FxQ460Via/qr8N0=
+  - secure: CbBZwpVqGOwejZ1+JgPZL1vHH4Y5ox3vcsEuQob4TsbUq8xFkp28xJtqG2tktn1BFv9OUYNNlrynV5GS0LHN8lXobQXsovgkAya5FW3elTNXXPMpq2RM4/QVNhpwbXoaJx+4ikyuI/IvLR5MXDXOVV4yzaBKhSo4VXkT2uKuFCM=
 branches:
   only:
-    - /.*/
+  - master
+
+script: bundle exec jekyll build --trace --verbose
+after_success:
+  - git clone https://$GITHUB_REPO
+  - cd $(basename ${GITHUB_REPO%.git})
+  - git config user.name "Travis CI"
+  - git config user.email ${EMAIL}
+  - rsync -az --delete --exclude '.git*' ../_site/ .
+  - touch .nojekyll
+  - git add -A .
+  - git commit -m "Generated Jekyll site by Travis CI - ${TRAVIS_BUILD_NUMBER}"
+  - git push --force "https://${DEPLOY_KEY}@${GITHUB_REPO}" HEAD:${REPO_TARGET_BRANCH}
