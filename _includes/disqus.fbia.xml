@@ -1,2 +1,0 @@
-{% capture disqus %}{% include disqus.fbia.html %}{% endcapture %}
-{{ disqus | xml_escape }}

@@ -1,0 +1,629 @@
+<!doctype html>
+<html ⚡ lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Droid Doesn't</title>
+    <link rel="canonical" href="http://northisup.com">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+    <style amp-custom>
+      
+      /**
+ * Reset some basic elements
+ */
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+  margin: 0;
+  padding: 0; }
+
+/**
+ * Basic styling
+ */
+body {
+  font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #111;
+  background-color: #fdfdfd;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-feature-settings: "kern" 1;
+  -moz-font-feature-settings: "kern" 1;
+  -o-font-feature-settings: "kern" 1;
+  font-feature-settings: "kern" 1;
+  font-kerning: normal; }
+
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure,
+.highlight {
+  margin-bottom: 15px; }
+
+/**
+ * Images
+ */
+img {
+  max-width: 100%;
+  vertical-align: middle; }
+
+/**
+ * Figures
+ */
+figure > img {
+  display: block; }
+
+figcaption {
+  font-size: 14px; }
+
+/**
+ * Lists
+ */
+ul, ol {
+  margin-left: 30px; }
+
+li > ul,
+li > ol {
+  margin-bottom: 0; }
+
+/**
+ * Headings
+ */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400; }
+
+/**
+ * Links
+ */
+a {
+  color: #2a7ae2;
+  text-decoration: none; }
+  a:visited {
+    color: #1756a9; }
+  a:hover {
+    color: #111;
+    text-decoration: underline; }
+
+/**
+ * Blockquotes
+ */
+blockquote {
+  color: #828282;
+  border-left: 4px solid #e8e8e8;
+  padding-left: 15px;
+  font-size: 18px;
+  letter-spacing: -1px;
+  font-style: italic; }
+  blockquote > :last-child {
+    margin-bottom: 0; }
+
+/**
+ * Code formatting
+ */
+pre,
+code {
+  font-size: 15px;
+  border: 1px solid #e8e8e8;
+  border-radius: 3px;
+  background-color: #eef; }
+
+code {
+  padding: 1px 5px; }
+
+pre {
+  padding: 8px 12px;
+  overflow-x: auto; }
+  pre > code {
+    border: 0;
+    padding-right: 0;
+    padding-left: 0; }
+
+/**
+ * Wrapper
+ */
+.wrapper {
+  max-width: -webkit-calc(800px - (30px * 2));
+  max-width: calc(800px - (30px * 2));
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 30px;
+  padding-left: 30px; }
+  @media screen and (max-width: 800px) {
+    .wrapper {
+      max-width: -webkit-calc(800px - (30px));
+      max-width: calc(800px - (30px));
+      padding-right: 15px;
+      padding-left: 15px; } }
+
+/**
+ * Clearfix
+ */
+.wrapper:after, .footer-col-wrapper:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+/**
+ * Icons
+ */
+.icon > svg {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle; }
+  .icon > svg path {
+    fill: #828282; }
+
+/**
+ * Site header
+ */
+.site-header {
+  border-top: 5px solid #424242;
+  border-bottom: 1px solid #e8e8e8;
+  min-height: 56px;
+  position: relative; }
+
+.site-title {
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 56px;
+  letter-spacing: -1px;
+  margin-bottom: 0;
+  float: left; }
+  .site-title, .site-title:visited {
+    color: #424242; }
+
+.site-nav {
+  float: right;
+  line-height: 56px; }
+  .site-nav .menu-icon {
+    display: none; }
+  .site-nav .page-link {
+    color: #111;
+    line-height: 1.5; }
+    .site-nav .page-link:not(:last-child) {
+      margin-right: 20px; }
+  @media screen and (max-width: 600px) {
+    .site-nav {
+      position: absolute;
+      top: 9px;
+      right: 15px;
+      background-color: #fdfdfd;
+      border: 1px solid #e8e8e8;
+      border-radius: 5px;
+      text-align: right; }
+      .site-nav .menu-icon {
+        display: block;
+        float: right;
+        width: 36px;
+        height: 26px;
+        line-height: 0;
+        padding-top: 10px;
+        text-align: center; }
+        .site-nav .menu-icon > svg {
+          width: 18px;
+          height: 15px; }
+          .site-nav .menu-icon > svg path {
+            fill: #424242; }
+      .site-nav .trigger {
+        clear: both;
+        display: none; }
+      .site-nav:hover .trigger {
+        display: block;
+        padding-bottom: 5px; }
+      .site-nav .page-link {
+        display: block;
+        padding: 5px 10px;
+        margin-left: 20px; }
+        .site-nav .page-link:not(:last-child) {
+          margin-right: 0; } }
+
+/**
+ * Site footer
+ */
+.site-footer {
+  border-top: 1px solid #e8e8e8;
+  padding: 30px 0; }
+
+.footer-heading {
+  font-size: 18px;
+  margin-bottom: 15px; }
+
+.contact-list,
+.social-media-list {
+  list-style: none;
+  margin-left: 0; }
+
+.footer-col-wrapper {
+  font-size: 15px;
+  color: #828282;
+  margin-left: -15px; }
+
+.footer-col {
+  float: left;
+  margin-bottom: 15px;
+  padding-left: 15px; }
+
+.footer-col-1 {
+  width: -webkit-calc(35% - (30px / 2));
+  width: calc(35% - (30px / 2)); }
+
+.footer-col-2 {
+  width: -webkit-calc(20% - (30px / 2));
+  width: calc(20% - (30px / 2)); }
+
+.footer-col-3 {
+  width: -webkit-calc(45% - (30px / 2));
+  width: calc(45% - (30px / 2)); }
+
+@media screen and (max-width: 800px) {
+  .footer-col-1,
+  .footer-col-2 {
+    width: -webkit-calc(50% - (30px / 2));
+    width: calc(50% - (30px / 2)); }
+
+  .footer-col-3 {
+    width: -webkit-calc(100% - (30px / 2));
+    width: calc(100% - (30px / 2)); } }
+@media screen and (max-width: 600px) {
+  .footer-col {
+    float: none;
+    width: -webkit-calc(100% - (30px / 2));
+    width: calc(100% - (30px / 2)); } }
+/**
+ * Page content
+ */
+.page-content {
+  padding: 30px 0; }
+
+.page-heading {
+  font-size: 20px; }
+
+.post-list {
+  margin-left: 0;
+  list-style: none; }
+  .post-list > li {
+    margin-bottom: 30px; }
+
+.post-meta {
+  font-size: 14px;
+  color: #828282; }
+
+.post-link {
+  display: block;
+  font-size: 24px; }
+
+/**
+ * Posts
+ */
+.post-header {
+  margin-bottom: 30px; }
+
+.post-title {
+  font-size: 42px;
+  letter-spacing: -1px;
+  line-height: 1; }
+  @media screen and (max-width: 800px) {
+    .post-title {
+      font-size: 36px; } }
+
+.post-content {
+  margin-bottom: 30px; }
+  .post-content h2 {
+    font-size: 32px; }
+    @media screen and (max-width: 800px) {
+      .post-content h2 {
+        font-size: 28px; } }
+  .post-content h3 {
+    font-size: 26px; }
+    @media screen and (max-width: 800px) {
+      .post-content h3 {
+        font-size: 22px; } }
+  .post-content h4 {
+    font-size: 20px; }
+    @media screen and (max-width: 800px) {
+      .post-content h4 {
+        font-size: 18px; } }
+
+.amp-placeholder__wrap {
+  padding: 10px; }
+
+.amp-placeholder {
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  padding: 10px;
+  text-align: center;
+  display: block;
+  background-color: #2e9fff;
+  color: #fff !important;
+  font-size: 12px; }
+
+.amp-placeholder__svg {
+  height: 16px;
+  width: 16px;
+  margin-right: 3px;
+  fill: #fff;
+  vertical-align: top; }
+
+/**
+ * Syntax highlighting styles
+ */
+.highlight {
+  background: #fff; }
+  .highlighter-rouge .highlight {
+    background: #eef; }
+  .highlight .c {
+    color: #998;
+    font-style: italic; }
+  .highlight .err {
+    color: #a61717;
+    background-color: #e3d2d2; }
+  .highlight .k {
+    font-weight: bold; }
+  .highlight .o {
+    font-weight: bold; }
+  .highlight .cm {
+    color: #998;
+    font-style: italic; }
+  .highlight .cp {
+    color: #999;
+    font-weight: bold; }
+  .highlight .c1 {
+    color: #998;
+    font-style: italic; }
+  .highlight .cs {
+    color: #999;
+    font-weight: bold;
+    font-style: italic; }
+  .highlight .gd {
+    color: #000;
+    background-color: #fdd; }
+  .highlight .gd .x {
+    color: #000;
+    background-color: #faa; }
+  .highlight .ge {
+    font-style: italic; }
+  .highlight .gr {
+    color: #a00; }
+  .highlight .gh {
+    color: #999; }
+  .highlight .gi {
+    color: #000;
+    background-color: #dfd; }
+  .highlight .gi .x {
+    color: #000;
+    background-color: #afa; }
+  .highlight .go {
+    color: #888; }
+  .highlight .gp {
+    color: #555; }
+  .highlight .gs {
+    font-weight: bold; }
+  .highlight .gu {
+    color: #aaa; }
+  .highlight .gt {
+    color: #a00; }
+  .highlight .kc {
+    font-weight: bold; }
+  .highlight .kd {
+    font-weight: bold; }
+  .highlight .kp {
+    font-weight: bold; }
+  .highlight .kr {
+    font-weight: bold; }
+  .highlight .kt {
+    color: #458;
+    font-weight: bold; }
+  .highlight .m {
+    color: #099; }
+  .highlight .s {
+    color: #d14; }
+  .highlight .na {
+    color: #008080; }
+  .highlight .nb {
+    color: #0086B3; }
+  .highlight .nc {
+    color: #458;
+    font-weight: bold; }
+  .highlight .no {
+    color: #008080; }
+  .highlight .ni {
+    color: #800080; }
+  .highlight .ne {
+    color: #900;
+    font-weight: bold; }
+  .highlight .nf {
+    color: #900;
+    font-weight: bold; }
+  .highlight .nn {
+    color: #555; }
+  .highlight .nt {
+    color: #000080; }
+  .highlight .nv {
+    color: #008080; }
+  .highlight .ow {
+    font-weight: bold; }
+  .highlight .w {
+    color: #bbb; }
+  .highlight .mf {
+    color: #099; }
+  .highlight .mh {
+    color: #099; }
+  .highlight .mi {
+    color: #099; }
+  .highlight .mo {
+    color: #099; }
+  .highlight .sb {
+    color: #d14; }
+  .highlight .sc {
+    color: #d14; }
+  .highlight .sd {
+    color: #d14; }
+  .highlight .s2 {
+    color: #d14; }
+  .highlight .se {
+    color: #d14; }
+  .highlight .sh {
+    color: #d14; }
+  .highlight .si {
+    color: #d14; }
+  .highlight .sx {
+    color: #d14; }
+  .highlight .sr {
+    color: #009926; }
+  .highlight .s1 {
+    color: #d14; }
+  .highlight .ss {
+    color: #990073; }
+  .highlight .bp {
+    color: #999; }
+  .highlight .vc {
+    color: #008080; }
+  .highlight .vg {
+    color: #008080; }
+  .highlight .vi {
+    color: #008080; }
+  .highlight .il {
+    color: #099; }
+
+    </style>
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
+  </head>
+  <body>
+
+<h1 class="post-title">
+<!--
+Proudly hosted on GitHub
+Generated by Jekyll on 2016-04-21T00:29:58+00:00
+Revision build version 
+-->
+
+<header class="site-header">
+  <div class="wrapper">
+
+    <a class="site-title" href="/">North Is ⇡ The enemy's gate is down</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/page/">About</a>
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+</h1>
+<span>
+2009-12-17 00:00:00 +0000
+</span>
+<p>I bought the droid on day one, this is why I returned it 30 days later. <strong>Edit:</strong> There were many aspects about the droid that were awesome (Google Navigation and Google Contact sync: superawesome), but in this post I’m focusing on the aspects that gave me trouble. To that end I also am trying to not compare it to other devices such as the iPhone or Pre. I wanted to look at my experience on the droid as a standalone experience.</p>
+
+<h2 id="user-interface">User Interface</h2>
+
+<p>It seems Google focused on making a flexible OS instead of a phone OS. When I think of what I want a phone to do, I think of 1) make phone calls, and 2) listen to music. The droid doesn’t make it easy to do either. The best way to frame this problem is as the workflow of getting from application X, to music or phone, then getting back to application X . Ignoring the interface of the actual applications (the phone is fine, the music leaves much to be desired), it was difficult to even get back to my music to skip a track/pause/play/etc. and then get back to the web, or game, or whatever. While the feature is there, the workflow is not. I know you can hold the Home button for the previous six apps, but often music wasn’t in those anymore. <strong>Edit:</strong> I have gotten a lot of flack from people saying “Look, it isn’t that hard to hit home, swipe your finger a few times and hit the phone button. What’s your problem?” They then go on to make some very disparaging ad hominem remarks. If you agree with them then you are missing the point. My complaint is not that it is difficult to make a phone call, it is that it is more difficult than it <em>should be</em>. The single thing I do most on my phone should be the single easiest thing to do. Do not treat playing music and making phone calls like all the other apps. They are why I bought the phone, they are special, they are royalty; treat them as such.</p>
+
+<h2 id="marketplace">Marketplace</h2>
+
+<p>In short the marketplace has a horrible interface; its good for search but not for exploration. The marketplace is one of the greatest disappointments of the device. Other than “Featured,” “New,” and “Updated” there is no way to explore the Marketplace for new and interesting apps. The result of this lack of exploration for apps in related categories meant I would download several applications with a similar purpose and then keep the one I liked the most. This leads to the next frustrating thing. Another huge failure of the marketplace is how it deals with applications not compatible with certain version of the Android OS. If you search for an application that works on 1.6, but not 2.0 Google says that application doesn’t exist. From a user interface perspective, if I click a link/QRCode on a site it appears as a broken link to the user. A better method would be to show the app, but not allow its download stating “Not compatible with your Android version.” <strong>Edit:</strong> People have asked why this is such a big deal. As a user I had the experience of going to companies websites and filling support claims telling them that their links on their site were broken. Or that their application is not, in fact, listed in the Marketplace which is contrary to what they are telling me. I sent them screenshots, and they were confused too. From a developer’s perspective, I am confused why my product appears to be broken to my users.</p>
+
+<h2 id="application-management-and-removal">Application Management and Removal</h2>
+
+<p>There is no easy way to manage applications individually or in bulk. For me application management includes moving them around my home screens (of which there are only three, and this number is not negotiable) as well as removing applications I no longer want to use. I thought that by version 2.0 Google would have found a better way remove and manage applications by now. Since Google Sync is one of the core features of the device delivering contacts, mail, and calendars, why not make it deliver applications too? There should be a Google web app that is specifically for managing an Android device. Or, the way things are going, a suite of a user’s Android devices. Since you are arbitrarily limited to three home screens you can use folders to allow ‘quick’ access to applications. I put quick in quotations because the folders actually just get in the way. I had one folder for people I call frequently, this works fine, but folders don’t close once you hit an icon inside them. This means the next time you get to the home screen you have to close the folder you used last. I love it that you can return applications. Google’s Marketplace is the only one that can, but I found it frustrating that I could return some and not others. Nor was there any indication as to which applications could or could not be returned. From a user’s perspective this inconsistent interface is confusing and difficult to figure out. If you are going to offer such a great service as returns offer them universally. Furthermore now that I have returned my device I am very upset that I have no way to return the apps I did purchase (and I bought a lot).</p>
+
+<h2 id="battery-life">Battery Life</h2>
+
+<p>I love gadgets, I have lots of them, I’ve had countless Palms, Handsprings (remember them?), Zaurs’, iPods, etc. The Droid is the first one that I have actively been dissapointed with its battery life. The device was dead 24 out of 30 days before I got home from work. Let me preempt some questions. GPS was only on while actively being used, and it was not used frequently, wifi was used when available, but not left on. I actively killed background processes that didn’t need to be running. All apps that wanted to poll for information were set at one to three hours for polling duration except for twitter which was set at 30 minutes. And I had less than 30 minutes talk time each day. Under these power usage settings I expect the device to at least make it all day, possibly two, not less than eight hours.</p>
+
+<h2 id="bugs">Bugs</h2>
+
+<p>One of the most well publicized bugs is the autofocus, so I won’t address it, I’ll address ones that are less publicized. After booting to the home screen you would expect to be able to do things, right? Wrong. The device would hang for five to ten minutes while who knows what went on. I think this was related to background processes, but the sandboxing system on the droid is supposed to prevent background processes from interfering with foreground process. Don’t know if this is a bug, but the device was generally choppy when sliding screens with a lot of icons. Every person I talked to complained about the audio quality, saying that I sounded muffled and distant. Most disappointing was the instability of core applications. Two to three times a day I would dial and hit send and the phone application would quit, I’d try again and again until a message would pop up “Application ‘Dialer’ has hung, wait or force quit.” I expected compatibility issues from third party apps, not from core google applications. Very disappointing.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>For all these reasons I’ll be leaving the droid platform for the time being. I was willing to give it a second chance, maybe I had a lemon, but Verizon would not extend the 30 day return policy to a second unit. I’m still willing to give the Android platform a second go, but I’m just not willing to pay $300 and two years of my life for it.</p>
+
+<amp-iframe width=300 height=325
+    sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"
+    layout="responsive"
+    frameborder="0"
+    src="https://tempest.services.disqus.com/engage-iframe/amp/?forum_shortname=northisup&amp;disqus_identifier=/blog/droid-doesnt/"
+>
+    <div placeholder class="amp-placeholder__wrap">
+        <a href="https://tempest.services.disqus.com/engage-iframe/amp-page/?forum=northisup&disqus_identifier=%2Fblog%2Fgoogletv-apps-suck%2F" target="_blank" class="amp-placeholder" placeholder>
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1024" height="1024" viewBox="0 0 1024 1024" class="amp-placeholder__svg"><path d="M524.456259,1012.5 C404.195712,1012.5 294.23718,968.012444 209.221899,894.419296 L0,923.35537 L80.8289496,721.399852 C52.6676835,658.493741 36.8688345,588.659481 36.8688345,515 C36.8688345,240.254704 255.169612,17.5 524.456259,17.5 C793.721065,17.5 1012,240.254704 1012,515 C1012,789.796889 793.728345,1012.5 524.456259,1012.5 L524.456259,1012.5 Z M790.685065,520.577519 L790.685065,519.191889 C790.685065,375.631815 690.679079,273.264741 518.245928,273.264741 L332.008806,273.264741 L332.008806,770.764741 L515.48659,770.764741 C689.259367,770.772111 790.685065,664.130222 790.685065,520.577519 L790.685065,520.577519 L790.685065,520.577519 Z M520.29905,648.534519 L465.825784,648.534519 L465.825784,395.531815 L520.29905,395.531815 C600.305295,395.531815 653.409813,441.707185 653.409813,521.344037 L653.409813,522.729667 C653.409813,603.037222 600.305295,648.534519 520.29905,648.534519 L520.29905,648.534519 Z"></path></svg>
+            READ DISCUSSION
+        </a>
+    </div>
+</amp-iframe>
+
+
+<footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">North Is ⇡ The enemy's gate is down</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>North Is ⇡ The enemy's gate is down</li>
+          <li><a href="mailto:adam@northisup.com">adam@northisup.com</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/northisup"><span class="icon icon--github"><svg viewBox="0 0 16 16"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
+</span><span class="username">northisup</span></a>
+
+          </li>
+          
+
+          
+          <li>
+            <a href="https://twitter.com/northisup"><span class="icon icon--twitter"><svg viewBox="0 0 16 16"><path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/></svg>
+</span><span class="username">northisup</span></a>
+
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>Musings on not much. Mainly used as a testing ground for disqus.
+</p>
+        <p>Generated at 2016-04-21 00:29:58 +0000</p>
+        <p></p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+</body>
+</html>
